@@ -26,3 +26,7 @@ Core concepts:
 - **Event-Driven Execution**: Functions execute strictly in response to specific triggers, such as an HTTP request via Amazon API Gateway, changes to an Amazon S3 bucket, or data streams from Amazon Kinesis.
 - **Automatic Scaling**: The platform instantly scales from a single request to tens of thousands of concurrent executions based on incoming traffic volume.
 - **Granular Billing Model**: You only pay for the exact compute time consumed, measured in millisecond increments. No costs are incurred when your code is idle.
+
+
+## VPC - Virtual Private Cloud
+It is a foundational AWS networking service that lets you launch AWS resources in a logically isolated virtual network. It gives you complete control over your virtual networking environment, mimicking a traditional data center but backed by the scalable infrastructure of AWS.
