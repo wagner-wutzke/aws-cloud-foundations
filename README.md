@@ -22,7 +22,7 @@ The basic entities stored in S3. An object consists of the file data itself (ran
 ## Lambda
 AWS Lambda is an event-driven, serverless computing platform provided by Amazon Web Services (AWS). It allows developers to run code for applications or backend services without provisioning, managing, or scaling physical or virtual servers.
 Core concepts:
-- Serverless Architecture: AWS completely handles underlying server maintenance, operating system patching, and capacity provisioning.
-- Event-Driven Execution: Functions execute strictly in response to specific triggers, such as an HTTP request via Amazon API Gateway, changes to an Amazon S3 bucket, or data streams from Amazon Kinesis.
-- Automatic Scaling: The platform instantly scales from a single request to tens of thousands of concurrent executions based on incoming traffic volume.
-- Granular Billing Model: You only pay for the exact compute time consumed, measured in millisecond increments. No costs are incurred when your code is idle.
+- **Serverless Architecture**: AWS completely handles underlying server maintenance, operating system patching, and capacity provisioning.
+- **Event-Driven Execution**: Functions execute strictly in response to specific triggers, such as an HTTP request via Amazon API Gateway, changes to an Amazon S3 bucket, or data streams from Amazon Kinesis.
+- **Automatic Scaling**: The platform instantly scales from a single request to tens of thousands of concurrent executions based on incoming traffic volume.
+- **Granular Billing Model**: You only pay for the exact compute time consumed, measured in millisecond increments. No costs are incurred when your code is idle.
